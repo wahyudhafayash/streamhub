@@ -52,7 +52,7 @@ export default async function Home() {
       type: "donation",
       platform: "Saweria",
       label: "Support via Saweria",
-      url: process.env.NEXT_PUBLIC_SAWERIA_LINK,
+      url: process.env.NEXT_PUBLIC_SAWERIA_LINK || "#",
       icon: "Coffee",
       highlight: true,
     },
@@ -61,7 +61,7 @@ export default async function Home() {
       type: "donation",
       platform: "Tako",
       label: "Support via Tako",
-      url: process.env.NEXT_PUBLIC_TAKO_LINK,
+      url: process.env.NEXT_PUBLIC_TAKO_LINK || "#",
       icon: "Coffee",
     },
   ];
