@@ -1,0 +1,6 @@
+{
+  "name": "Fay4ssz",
+  "description": "Fay4ssz is a premium Linktree alternative for streamers and content creators, consolidating links, livestreams, schedules, and cross-platform video feeds into one sleek profile.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
