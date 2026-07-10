@@ -11,18 +11,18 @@ const pixel = VT323({
 });
 
 export const metadata: Metadata = {
-  title: "Fay4ssz | The Premium Profile",
+  title: "Fay4ssz",
   description:
     "All your links, latest videos, and live status in one premium profile.",
   openGraph: {
-    title: "Fay4ssz | The Premium Profile",
+    title: "Fay4ssz",
     description:
       "All your links, latest videos, and live status in one premium profile.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fay4ssz | The Premium Profile",
+    title: "Fay4ssz",
     description:
       "All your links, latest videos, and live status in one premium profile.",
   },
