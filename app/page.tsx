@@ -281,7 +281,7 @@ export default async function Home() {
           <VideoFeed
             title="Latest TikToks"
             videos={finalTiktokVideos}
-            channelUrl={`https://www.tiktok.com/@${tiktokHandle}`}
+            channelUrl={`https://www.tiktok.com/@loncengelias`}
             isVertical={true}
           />
         </div>
