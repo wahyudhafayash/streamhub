@@ -123,11 +123,9 @@ export default async function Home() {
   const streamerBio =
     process.env.NEXT_PUBLIC_STREAMER_BIO || "Just streaming for fun.";
   const streamerAvatar =
-    process.env.NEXT_PUBLIC_STREAMER_AVATAR ||
-    "https://picsum.photos/seed/avatar3/800/800";
+    process.env.NEXT_PUBLIC_STREAMER_AVATAR || "/assets/images/pho.jpeg";
   const streamerBanner =
-    process.env.NEXT_PUBLIC_STREAMER_BANNER ||
-    "https://picsum.photos/seed/banner1/1920/1080";
+    process.env.NEXT_PUBLIC_STREAMER_BANNER || "/assets/images/ban.jpg";
 
   const profileButtonLink =
     process.env.NEXT_PUBLIC_PROFILE_BUTTON_LINK ||
@@ -278,12 +276,12 @@ export default async function Home() {
             />
           )}
 
-          <VideoFeed
+          {/* <VideoFeed
             title="Latest TikToks"
             videos={finalTiktokVideos}
             channelUrl={`https://www.tiktok.com/@loncengelias`}
             isVertical={true}
-          />
+          /> */}
         </div>
       </div>
     </main>

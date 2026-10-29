@@ -29,24 +29,23 @@ export function ProfileHeader({
   return (
     <div className="relative flex flex-col items-center mb-8">
       {/* Banner */}
-      <div className="w-full h-48 md:h-64 relative overflow-hidden border-b-4 border-black bg-pink-200">
+      <div className="w-full h-44 sm:h-56 md:h-64 relative overflow-hidden border-4 border-black bg-pink-200 rounded-2xl shadow-[6px_6px_0_0_#000]">
         <Image
           src={banner}
-          alt="Profile Banner"
+          alt={`${name} banner`}
           fill
-          className="object-cover opacity-90 mix-blend-luminosity"
+          className="object-cover opacity-90"
           referrerPolicy="no-referrer"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-pink-300/80 via-transparent to-transparent mix-blend-overlay" />
-        {/* Retro dots overlay */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none" />
         <div
-          className="absolute inset-0 pointer-events-none opacity-[0.1]"
+          className="absolute inset-0 pointer-events-none opacity-15"
           style={{
             backgroundImage: "radial-gradient(#000 2px, transparent 2px)",
             backgroundSize: "16px 16px",
           }}
-        ></div>
+        />
       </div>
 
       {/* Avatar & Profile Info */}
@@ -62,7 +61,7 @@ export function ProfileHeader({
             className={`relative w-32 h-32 md:w-40 md:h-40 overflow-hidden border-4 ${isLive ? "border-red-500 bg-red-400" : "border-black bg-yellow-200"} shadow-[4px_4px_0_0_#000] z-10 rounded-xl`}
           >
             <Image
-              src="/assets/images/pho.jpeg"
+              src={avatar}
               alt={name}
               fill
               className="object-cover transition-transform group-hover:scale-105 duration-500"
