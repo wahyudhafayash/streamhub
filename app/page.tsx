@@ -50,9 +50,9 @@ export default async function Home() {
     {
       id: "donate-1",
       type: "donation",
-      platform: "Saweria",
-      label: "Support via Saweria",
-      url: process.env.NEXT_PUBLIC_SAWERIA_LINK || "#",
+      platform: "Sociabuzz",
+      label: "Support via Sociabuzz",
+      url: process.env.NEXT_PUBLIC_SOCIABUZZ_LINK || "#",
       icon: "Coffee",
       highlight: true,
     },

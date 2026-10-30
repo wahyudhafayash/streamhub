@@ -23,8 +23,8 @@ export const LINKS = [
   {
     id: "donate-1",
     type: "donation",
-    platform: "Saweria",
-    label: "Support the stream via Saweria",
+    platform: "Sociabuzz",
+    label: "Support the stream via Sociabuzz",
     url: "#",
     icon: "Wallet",
   },
